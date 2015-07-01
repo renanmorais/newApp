@@ -1,0 +1,14 @@
+{
+  "name": "newApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "renan costa morais",
+  "license": "mit",
+  "dependencies": {
+    "grunt": "^0.4.5"
+  }
+}

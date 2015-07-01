@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-new-router/dist/router.es5.js"></script>
+    <script src="app.js"></script>
+    <script src="components/home/home.js"></script>
+    <script src="components/detail/detail.js"></script>
+</head>
+<body ng-app="app" ng-controller="AppController as app">
+
+<h1>Angular New Router</h1>
+
+<p>Name: {{app.name}}</p>
+
+<a ng-link="home">Home</a>
+<a ng-link="about">About</a>
+<a ng-link="detail">detail</a>
+
+<div ng-viewport></div>
+
+
+
+</body>
+</html>
